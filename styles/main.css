@@ -1,4 +1,14 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html, body, canvas, div, p {
+	padding:0;
+	margin:0;
+}
+
+img {
+	border: 0;
+}
+
+#mainCanvas {
+    border: 1px solid black;
+    margin: 0 auto;
+    display: block;
 }
